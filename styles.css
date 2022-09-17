@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://source.unsplash.com/1600x900/?landscape');
+}
+
+.card{
+    background-color: #000000d0;
+    width: 23rem;
+    height: 20rem;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: wheat;
+    padding: 1rem 0rem;
+}
+
+.card .search{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    padding: 1rem;
+    gap: 1rem;
+}
+.card .search input{
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 0.8rem;
+    outline: none;
+    border: none;
+    padding: 1rem;
+}
+
+.card .search button{
+    width: 3rem;
+    height: 2.5rem;
+    border-radius: 1.5rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.card .search button:hover{
+    background-color: transparent;
+    color: white;
+}
+
+.card .weather{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 0rem 2.8rem;
+    gap: 0.6rem;
+    width: 100%;
+}
+
+.card .weather .city{
+    font-size: 1.5em;
+    padding: 1rem 0rem;
+}
+
+.menu{
+    /* border: 2px solid pink; */
+    display: flex;
+    gap: 3;
+    flex-direction: row;
+    align-items: center;
+}
+.menu img{
+    margin-left: -11px;
+}
